@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Leopard.Core</name>
+    </assembly>
+    <members>
+        <member name="P:Leopard.Core.Client.IOrleansClient.IsInitialized">
+            <summary>
+            获取连接状态
+            </summary>
+        </member>
+        <member name="M:Leopard.Core.Client.IOrleansClient.GetClusterClient">
+            <summary>
+            获取集群链接客户端
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Leopard.Core.Client.IOrleansClient.Connect(System.Func{System.Exception,System.Threading.Tasks.Task{System.Boolean}})">
+            <summary>
+            链接客户端
+            </summary>
+            <param name="retryFilter">过滤</param>
+            <returns></returns>
+        </member>
+        <member name="M:Leopard.Core.Client.IOrleansClient.Close">
+            <summary>
+            停止客户端链接
+            </summary>
+        </member>
+        <member name="M:Leopard.Core.Client.IOrleansClientProvider.GetClusterClient">
+            <summary>
+            获取集群客户端
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Leopard.Core.Client.OrleansClientFactory.GetClusterClient">
+            <summary>
+            获取集群客户端
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Leopard.Core.Hosting.SiloEndPointOptions.SiloPort">
+            <summary>
+            Silo 到Silo 的端口
+            </summary>
+        </member>
+        <member name="P:Leopard.Core.Hosting.SiloEndPointOptions.GatewayPort">
+            <summary>
+            对外网关端口
+            </summary>
+        </member>
+        <member name="P:Leopard.Core.Hosting.SiloEndPointOptions.GatewayListeningProt">
+            <summary>
+            内部Silo网关监听端口
+            </summary>
+        </member>
+        <member name="P:Leopard.Core.Hosting.SiloEndPointOptions.SiloListeningProt">
+            <summary>
+            内容Silo监听端口
+            </summary>
+        </member>
+        <member name="P:Leopard.Core.Hosting.SiloEndPointOptions.IP">
+            <summary>
+            Ip
+            </summary>
+        </member>
+        <member name="P:Leopard.Core.Hosting.SiloEndPointOptions.ListenOnAnyHostAddress">
+            <summary>
+            监听Any地址
+            </summary>
+        </member>
+        <member name="M:Orleans.OrleansClientExtensions.GetGrain``1(Orleans.IClusterClient,System.String)">
+            <summary>
+            获取Grain服务
+            </summary>
+            <typeparam name="TGrainInterface"></typeparam>
+            <param name="orleansClient"></param>
+            <param name="grainClassNamePrefix"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Orleans.ClientCore</name>
+    </assembly>
+    <members>
+        <member name="P:Orleans.ClientCore.Config.AdoNetClusteringConfigOptions.ConnectionString">
+            <summary>
+            Ado数据库连接字符串
+            </summary>
+        </member>
+        <member name="P:Orleans.ClientCore.Config.AdoNetClusteringConfigOptions.Invariant">
+            <summary>
+            数据库处理程序
+            </summary>
+        </member>
+        <member name="P:Orleans.ClientCore.Config.ClusterConfigOptions.Name">
+            <summary>
+            集群名称
+            </summary>
+        </member>
+        <member name="P:Orleans.ClientCore.Config.ClusterConfigOptions.AdoNetClustering">
+            <summary>
+            ado数据库集群配置
+            </summary>
+        </member>
+        <member name="P:Orleans.ClientCore.Config.OrleansClusterConfigHelper.ClusterConfig">
+            <summary>
+            获取集群配置
+            </summary>
+        </member>
+        <member name="M:Orleans.ClientCore.Config.OrleansClusterConfigHelper.GetCluster(System.String)">
+            <summary>
+            获取集群信息
+            </summary>
+            <param name="clusterID">集群编号</param>
+            <returns></returns>
+        </member>
+        <member name="P:Orleans.ClientCore.Config.OrleansClusterConfigOptions.DefaultCluster">
+            <summary>
+            默认集群
+            </summary>
+        </member>
+        <member name="P:Orleans.ClientCore.Config.OrleansClusterConfigOptions.ServiceId">
+            <summary>
+            服务名称
+            </summary>
+        </member>
+        <member name="P:Orleans.ClientCore.Config.OrleansClusterConfigOptions.Cluster">
+            <summary>
+            集群配置
+            </summary>
+        </member>
+        <member name="F:Orleans.ClientCore.OrleansClusterProxy._LockObj">
+            <summary>
+            锁
+            </summary>
+        </member>
+        <member name="M:Orleans.ClientCore.OrleansClusterProxy.GetClusterClient(System.String)">
+            <summary>
+            获取集群连接客户端
+            </summary>
+            <param name="clusterID">集群编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Orleans.ClientCore.OrleansClusterProxy.CreateClusterClientProxy(System.String)">
+            <summary>
+            创建集群代理
+            </summary>
+        </member>
+    </members>
+</doc>
