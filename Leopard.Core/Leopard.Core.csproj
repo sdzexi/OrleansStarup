@@ -10,11 +10,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>2.2.3</Version>
-    <Authors>liuyubo</Authors>
-    <Company>今日扫码</Company>
-    <Product>狸猫小程序商城</Product>
-    <Description>核心库</Description>
+    <Version>1.0.0</Version>
+    <Authors>Leopard.Core</Authors>
+    <Company></Company>
+    <Product></Product>
+    <Description></Description>
     <Copyright>jinrisaoma</Copyright>
   </PropertyGroup>
 
